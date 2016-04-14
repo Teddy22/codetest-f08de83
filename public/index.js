@@ -3,6 +3,14 @@
  */
 function getOutput() {
     var stringInput = $("#inputStr").val();
-    console.log(stringInput);
-    alert(stringInput);
+
+    $.ajax({
+        url: 'solution/'+stringInput,
+        success: function(data) {
+            $("#output").html("Result: " + data);
+        },
+        dataType: "text",
+        type:'POST'
+    });
+
 }

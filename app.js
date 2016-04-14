@@ -25,7 +25,9 @@ app.post('/solution/:input', function(req, res) {
 });
 
 function getOutput(inputStr, callBack) {
-    callBack(inputStr);
+    var output = [1,2,3];
+
+    callBack(output);
 }
 
 // open port 3000
