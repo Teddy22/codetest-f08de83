@@ -10,7 +10,7 @@ function getOutput() {
             $("#output").html("Result: " + data);
         },
         dataType: "text",
-        type:'POST'
+        type:'GET'
     });
 
 }

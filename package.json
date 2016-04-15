@@ -1,0 +1,27 @@
+{
+  "name": "codetest-f08de83",
+  "version": "1.0.0",
+  "description": "10 Substrings challenge",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teddy22/codetest-f08de83.git"
+  },
+  "author": "Teddy Wachira Mwangi (Edward)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Teddy22/codetest-f08de83/issues"
+  },
+  "homepage": "https://github.com/Teddy22/codetest-f08de83#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  }
+}
