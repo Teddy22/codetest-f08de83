@@ -66,4 +66,4 @@ Hope you have fun, and please email all questions to: code@imaginexconsulting.co
 - clone this project solution into your local machine
 - go into the root folder of project and run the command <code>nmp install</code> to load required Node modules at a terminal
 - run the comand <code>node app.js</code> at the root of this project to run the app.
-- view the working application at your localhost on port 3000 on your browser ( <a href="http://locahost:3000/">http://locahost:3000/</a> )
+- view the working application at your localhost on port 3000 on your browser ( <a href="http://localhost:3000/">http://localhost:3000/</a> )
