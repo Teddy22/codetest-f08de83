@@ -60,3 +60,10 @@ On the backend, you may choose any technology you like to implement the substrin
 3. We expect unit tests in the appropriate framework of your choice. If you're using a more exotic programming language or feature set, please provide instructions on how to run your tests. We will be running them. Writing zero tests is a fairly huge penalty.
 
 Hope you have fun, and please email all questions to: code@imaginexconsulting.com.
+
+### Install and Use Solution:
+- This solution has been implemented using Node. You will need a Node installation with the npm package manager to deploy this solution.
+- clone this project solution into your local machine
+- go into the root folder of project and run the command <code>nmp install</code> to load required Node modules at a terminal
+- run the comand <code>node app.js</code> at the root of this project to run the app.
+- view the working application at your localhost on port 3000 on your browser ( http://locahost:3000/ )
